@@ -130,3 +130,6 @@ dmypy.json
 
 # Pickle files
 pickle/
+
+# archive directory
+archive/
