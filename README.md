@@ -1,7 +1,9 @@
-# Plotting COVID-19 in Virginia
+# Plotting COVID-19 in Virginia Localities
 
 ![Histogram rug of hospitalizations per 1,000 population, by locality (excerpt)](/images/histogram-rug.png)
 _Histogram rug of hospitalizations per 1,000 population, by locality (exerpt)_
+
+## Introductin
 
 ## Objectives
 This visual exploration project developed as my geographic home region of south - eastern Virginia experienced a rise in the report of daily COVID-19 cases. I wondered how the numbers compared to other areas, such as the state's capital city of Richmond, which had experience earlier outbreaks.
@@ -87,3 +89,17 @@ Features engineering for the project involved merging dataframes on the Federal 
 
 
 Additional visualizations include interactive histogram plots, in which we observe long tails to the right due to both the presence of localities with relatively low populations (making each of their cases more significant as a fraction of population) and to the number of records (daily) for each of those localities. To our original question, regarding Hampton Roads communities to the capital city: visualizations show a significantly greater number of cases in Norfolk and Virginia Beach, by the end of our timeline; however, hospitalizations and deaths in Richmond exceed those of the SE Virginia localities, both in raw numbers and per 1,000 of their respective population estimates.
+
+
+## Featured Notebooks
+
+## Technologies
+* Python
+    - Matplotlib
+    - Numpy
+    - OS
+    - Pandas
+    - Pickle
+    - Plotly Express
+* Sqlite3
+* Jupyter Notebooks
