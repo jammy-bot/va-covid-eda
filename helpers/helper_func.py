@@ -6,6 +6,7 @@ def save_pickle (self, filename=None):
     '''
     import os
     import pickle
+    
     # making a pickles directory, if it does not exist
     try:
         if not os.path.exists('pickles'):
@@ -18,3 +19,17 @@ def save_pickle (self, filename=None):
     with open(f'pickles/{filename}', 'wb') as filename:
         pickle.dump(self, filename, pickle.HIGHEST_PROTOCOL)
     print("Saved as ", filename, "\n")
+    
+
+# creating a function to deserialize and instantiate objects
+def read_pickle(filepath):
+    ''' takes a string file(path) of a pickled file
+    and returns the de - serialized file
+    '''
+    import os
+    import pickle
+    
+    with open(filepath, 'rb') as f:
+        pfile = pickle.load(f)
+    print("File restored from {}".format(filepath))
+    return (pfile)
