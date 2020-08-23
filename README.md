@@ -9,7 +9,7 @@ Effective July 1, 2020, the state of Virginia entered the third phase of the “
 This is project not a predictive analysis, instead serving comparative analysis for a limited subset of relevant data over particular time frames.
 
 ## Objectives
-To gauge how the Hampton Roads numbers compare to other areas of Virginia, such as the state's capital city of Richmond, this study primarily investigates the data using interactive plotting with Plotly Express. This approach enables visualization of data for multiple localities on a single figure, with the option to hover or drill - down for greater detail.
+To gauge how the Hampton Roads numbers compare to other areas of Virginia, such as the state's capital city of Richmond, this study primarily investigates the data using interactive plotting with Plotly Express. This approach enables visualization of data for multiple localities on a single figure, with the option to hover or drill - down for greater detail (see published notebooks).
 
 ## The Dataset
 ### Virginia's public COVID-19 cases dataset
@@ -53,7 +53,7 @@ Since data sources used are actively employed in the public presentation of stat
 ![Cases by Locality](/images/va-viz.png)
 _Static capture, from interactive Plotly Express line plot_
 
-Thanks to interactive plotting, the first visualization was capable of answering many of the raised questions. It is easy to see (in the interactive plot) which localities lead the case count and a simple matter to view hover statistics for each line on the plot. Of course, since there are 133 localities, things do get a bit dense in places.
+Thanks to interactive plotting, the first visualization was capable of answering many of the raised questions (see [Featured Notebooks](#featured-notebooks), below). It is easy to see (in the interactive plot) which localities lead the case count and a simple matter to view hover statistics for each line on the plot. Of course, since there are 133 localities, things do get a bit dense in places.
 
 ![Hospitalizations by Locality](/images/static-hosp.png)
 Static bar plot of 10  highest locality hospitalization counts
@@ -92,7 +92,33 @@ Features engineering for the project involved merging dataframes on the Federal 
 Additional visualizations include interactive histogram plots, in which we observe long tails to the right due to both the presence of localities with relatively low populations (making each of their cases more significant as a fraction of population) and to the number of records (daily) for each of those localities. To our original question, regarding comparison of Hampton Roads community pandemic statistics to those of the capital city: visualizations show a significantly greater number of cases in Norfolk and Virginia Beach, by the end of our timeline; however, hospitalizations and deaths in Richmond exceed those of each of the SE Virginia localities, both in raw numbers and per 1,000 of their respective population estimates.
 
 
-## Featured Notebooks
+## [Featured Notebooks](#featured-notebooks)
+
+| Notebook                    | Hyperlink                                                                                                                                                                                                        |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                             |                                                                                                                                                                                                                  |
+| Filename                    | va-covid-OSE.ipynb                                                                                                                                                                                               |
+| Description                 | Obtain, scrub, and explore with static plots.                                                                                                                                                                    |
+| Repository Location         | notebooks: [va-covid-OSE.ipynb](https://github.com/jammy-bot/va-covid-eda/blob/master/notebooks/va-covid-OSE.ipynb)                                                                                              |
+| External Published Location | [On Deepnote](https://deepnote.com/publish/88b331b8-1da7-4162-b03d-d16463702b37-0801ab15-6074-4988-a65a-cba1bb0d7e95) |
+|                             |                                                                                                                                                                                                                  |
+| Notebook                    | Hyperlink                                                                                                                                                                                                        |
+| Filename                    | va-covid-limited-explore..ipynb                                                                                                                                                                                  |
+| Description                 | Explore locality statistics and interactively plot for localities of interest.                                                                                                                                   |
+| Repository Location         | notebooks: [va-covid-limited-explore..ipynb](https://github.com/jammy-bot/va-covid-eda/blob/master/notebooks/va-covid-limited-explore..ipynb)                                                                    |
+| External Published Location | [On Deepnote](https://deepnote.com/publish/88b331b8-1da7-4162-b03d-d16463702b37-af082b87-366e-4389-9d4c-20348d170836) |
+|                             |                                                                                                                                                                                                                  |
+| Notebook                    | Hyperlink                                                                                                                                                                                                        |
+| Filename                    | va-covid-merge-explore.ipynb                                                                                                                                                                                     |
+| Description                 | Explore against population data.                                                                                                                                                                                 |
+| Repository Location         | notebooks: [va-covid-merge-explore.ipynb](https://github.com/jammy-bot/va-covid-eda/blob/master/notebooks/va-covid-merge-explore.ipynb)                                                                          |
+| External Published Location | [On Deepnote](https://deepnote.com/publish/88b331b8-1da7-4162-b03d-d16463702b37-fce29a9a-d9e3-4cec-b658-3026702010cc) |
+|                             |                                                                                                                                                                                                                  |
+| Notebook                    | Hyperlink                                                                                                                                                                                                        |
+| Filename                    | va\_covid\_plots.ipynb                                                                                                                                                                                           |
+| Description                 | Single notebook, complete project (pre - notebook segmentation)                                                                                                                                                  |
+| Repository Location         | [va\_covid\_plots.ipynb](https://github.com/jammy-bot/va-covid-eda/blob/master/va_covid_plots.ipynb)                                                                                                             |
+|                             | not externally published                                                                                                                                                                                         |
 
 ## Technologies
 * Python
