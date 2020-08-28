@@ -103,19 +103,19 @@ Additional visualizations include interactive histogram plots (link to interacti
 |                             |                                                                                                                                                                                                                  |
 | Filename                    | va-covid-OSE.ipynb                                                                                                                                                                                               |
 | Description                 | Obtain, scrub, and explore with static plots.                                                                                                                                                                    |
-| Repository Location         | notebooks: [va-covid-OSE.ipynb](https://github.com/jammy-bot/va-covid-eda/blob/master/notebooks/va-covid-OSE.ipynb)                                                                                              |
+| Repository Location         | notebooks: [va-covid-OSE.ipynb](https://github.com/jammy-bot/virginia-covid-eda/blob/master/notebooks/va-covid-OSE.ipynb)                                                                                              |
 | Interactive Notebook (external) | [On Deepnote](https://deepnote.com/publish/88b331b8-1da7-4162-b03d-d16463702b37-0801ab15-6074-4988-a65a-cba1bb0d7e95) |
 |                             |                                                                                                                                                                                                                  |
 | __Notebook__                    | __Hyperlink__                                                                                                                                                                                                        |
 | Filename                    | va-covid-limited-explore..ipynb                                                                                                                                                                                  |
 | Description                 | Explore locality statistics and interactively plot for localities of interest.                                                                                                                                   |
-| Repository Location         | notebooks: [va-covid-limited-explore..ipynb](https://github.com/jammy-bot/va-covid-eda/blob/master/notebooks/va-covid-limited-explore..ipynb)                                                                    |
+| Repository Location         | notebooks: [va-covid-limited-explore..ipynb](https://github.com/jammy-bot/virginia-covid-eda/blob/master/notebooks/va-covid-limited-explore..ipynb)                                                                    |
 | Interactive Notebook (external) | [On Deepnote](https://deepnote.com/publish/88b331b8-1da7-4162-b03d-d16463702b37-af082b87-366e-4389-9d4c-20348d170836) |
 |                             |                                                                                                                                                                                                                  |
 | __Notebook__                    | __Hyperlink__                                                                                                                                                                                                        |
 | Filename                    | va-covid-merge-explore.ipynb                                                                                                                                                                                     |
 | Description                 | Explore against population data.                                                                                                                                                                                 |
-| Repository Location         | notebooks: [va-covid-merge-explore.ipynb](https://github.com/jammy-bot/va-covid-eda/blob/master/notebooks/va-covid-merge-explore.ipynb)                                                                          |
+| Repository Location         | notebooks: [va-covid-merge-explore.ipynb](https://github.com/jammy-bot/virginia-covid-eda/blob/master/notebooks/va-covid-merge-explore.ipynb)                                                                          |
 | Interactive Notebook (external) | [On Deepnote](https://deepnote.com/publish/88b331b8-1da7-4162-b03d-d16463702b37-fce29a9a-d9e3-4cec-b658-3026702010cc) |
 |                             |                                                                                                                                                                                                                  |
 | __Notebook__                    | __Hyperlink__                                                                                                                                                                                                        |
@@ -126,11 +126,12 @@ Additional visualizations include interactive histogram plots (link to interacti
 
 ## Technologies
 * Python
+    - Datapane
     - Matplotlib
     - Numpy
     - OS
     - Pandas
     - Pickle
     - Plotly Express
-* Sqlite3
+* Deepnote
 * Jupyter Notebooks
