@@ -133,3 +133,6 @@ pickle/
 
 # archive directory
 archive/
+
+# helpers directory
+helpers/
