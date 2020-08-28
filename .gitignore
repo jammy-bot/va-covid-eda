@@ -136,3 +136,6 @@ archive/
 
 # helpers directory
 helpers/
+
+# ignore local paths from deepnote
+c:*
