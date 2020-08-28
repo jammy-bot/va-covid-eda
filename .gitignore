@@ -138,4 +138,4 @@ archive/
 helpers/
 
 # ignore local paths from deepnote
-c:*
+'c:*'
